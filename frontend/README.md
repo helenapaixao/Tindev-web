@@ -13,12 +13,6 @@ Tindev
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
   </a>
 </p>
-
-<div>
-  <img src="https://i.ibb.co/GJfb2X4/web.gif" alt="demo-web" height="425">
-  <img src="https://i.ibb.co/zHbFDyd/mobile.gif" alt="demo-mobile" height="425">
-</div>
-
 <hr />
 
 ## Features
