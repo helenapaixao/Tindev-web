@@ -1,68 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+<br>
+  <img src="https://svgshare.com/i/G_S.svg" alt="TinDev" width="120">
+<br>
+<br>
+Tindev
+</h1>
 
-## Available Scripts
+<p align="center">The monorepo of a clone of tinder mobile and web app, built in a Omnistack Week</p>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
+  </a>
+</p>
 
-### `npm start`
+<div>
+  <img src="https://i.ibb.co/GJfb2X4/web.gif" alt="demo-web" height="425">
+  <img src="https://i.ibb.co/zHbFDyd/mobile.gif" alt="demo-mobile" height="425">
+</div>
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<hr />
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Features
 
-### `npm test`
+This app features all the latest tools and practices in mobile development!
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ⚛️ **React Js** — A JavaScript library for building user interfaces
+- ⚛️ **React Native** — A lib that provides a way to create native apps for Android and iOS
+- 💹 **Node Js** — A web framework for Node Js
+- 📄 **MongoDB** — A cross-platform and open-source document-oriented database
+- ♻️ **Socket IO** — A library for realtime web applications 
 
-### `npm run build`
+## Getting started
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone this repo using `git clone git@github.com:CarlosLevir/tindev.git`
+2. Move yourself to the appropriate directory: `cd tindev`<br />
+3. Run `yarn` to install dependencies<br />
+4. Run `lerna bootstrap` to install the packages dependecies
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### Getting started with the backend server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Move yourself to the backend folder: `cd backend`
+2. Create a `.env` file and add the MongoDB url connection in MONGO_URL field
+3. Run `yarn dev` to start the server
 
-### `npm run eject`
+### Getting started with the frontend app
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Move yourself to the frontend folder: `cd frontend`
+2. Run `yarn start` to start the web application
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Getting started with the mobile app
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Move yourself to the mobile folder: `cd mobile`
+2. Run `react-native run-ios` (or `run-android` if your prefer) to start the mobile app
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Note: If you choose to start the mobile app in the android emulator, you will have to start the emulator before using
+the `run-android` command.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
